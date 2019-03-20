@@ -1,0 +1,276 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#barraLogin{
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 10px;
+   }
+#barraVermelha{
+    background-color: firebrick;
+    height: 80px;
+    padding: 0px;
+    left: 0;
+}
+#G1{
+    color:white;
+    font-size: 50px;
+    background-color: firebrick;
+    text-decoration: none;
+    margin-left: 50%;
+}
+#div01{
+    background-color: white;
+    width: 32%;
+    height: 750px;
+    margin-left: 20%;
+    margin-top: 10%;
+    float: left;
+
+ 
+}
+/*até aqui ok*/
+
+ #div02{
+    background-color: white;
+    width:32%; 
+    height:750px;
+    margin-left: 1%;
+    margin-top: 10%;
+    background-image: url(imagens/utrecht.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+
+}
+#noticias{
+    
+}
+
+.limparFloat{
+    clear: both;
+}
+
+#letra01{
+    padding:10px;
+    color:black;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin: 50px;
+}
+
+#letra02{
+    color: firebrick;
+    font-size:40px;
+    font-family: impact;
+    padding:50px; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+#letra03{
+   padding:10px; 
+   color:black;
+   font-size: 20px;
+   margin: 50px;
+}
+#letra04{
+   color:white;
+   font-size: 25px;
+   width: 200px;
+   margin-left: 1150px;
+   margin-top: 200px;  
+}
+#letra05{
+  margin-top: 5px;
+   color:white;
+   font-size: 40px;
+   width: 600px;
+    margin-left: 1150px;
+    margin-top: 300px;
+}
+/*--------------------------------------------------------------------*/
+  #anuncio{
+    background-color:white;
+    width: 60%;
+    height: 200px;
+    margin-left:23%;
+    background-image: url(imagens/anuncio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#anuncio2{
+    background-color:white;
+    width: 60%;
+    height: 200px;
+    margin-left:23%;
+    background-image: url(imagens/anuncio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2%;
+}
+
+/*--------------------------------------------------------------------*/
+.imagensdenoticias{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin-left: 20%;
+}
+.titulo{
+        font-size: 25px;
+    }
+    .noticialetravermelha{
+        color: firebrick;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+#noticia01{
+    margin-top: 5%;
+    background-color: white;
+    background-image: url(imagens/noticia01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+}
+#noticia02{
+        
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 60%;
+    }
+#noticia03{
+    margin-top: 5%;
+    background-color: white;
+    background-image: url(imagens/noticia03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+}
+#noticia04{
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 60%;
+    }
+#noticia05{
+    margin-top: 5%;
+    background-color: white;
+    background-image: url(imagens/noticia05.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+}
+ #noticia06{
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 60%;
+    }
+
+/*--------------------------------------------------------------------*/
+
+#vejaMais{
+    color: white;
+    background-color: firebrick;
+    width: 50%;
+    height: 50%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+#barraVermelha2{
+    background-color: firebrick;
+    width: 100%;
+    height: 100px;
+    margin:0;
+    padding: 0px;
+    left:0;
+}
+/*--------------------------------------------------------------------*/
+a{
+    text-decoration: none;
+    color: inherit;/*(usei para retirar a cor do link)*/
+}
+hr{
+    height: 2px;
+    width: 60%;
+}
+#link01{
+    color: blue;
+    font-size: 25px;
+    margin: 5px;
+    border-right: 1px #ccc solid;
+    padding: 10px;
+    font-weight: bold;
+}
+#link02{
+    color: firebrick;
+    font-size: 25px;
+    margin: 5px;
+     border-right: 1px #ccc solid;
+    padding: 10px;
+    font-weight: bold;
+}
+#link03{
+    color: green;
+    font-size: 25px;
+    margin: 5px;
+     border-right: 1px #ccc solid;
+    padding: 10px;
+    font-weight: bold;
+}
+#link04{
+    color: orangered;
+    font-size: 25px;
+    margin: 5px;
+    border-right: 1px #ccc solid;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+#link05{
+    color: blue;
+    font-size: 25px;
+    margin: 5px;
+    margin-right: 800px;
+    font-weight: bold;
+}
+/*---------------------------------------------------*/
+
+
+#link6{
+    color: #aaa;
+    font-size: 20px;
+    margin: 5px;
+}
+#link7{
+    color: #aaa;
+    font-size: 20px;
+    margin: 5px;
+}
+#link8{
+    color: #aaa;
+    font-size: 20px;
+    margin: 5px;
+}
+#buttonEntrar{
+    border-radius: 5px;
+    font-size: 20px;
+    color: #aaa;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
